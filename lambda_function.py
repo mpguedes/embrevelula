@@ -9,7 +9,6 @@ ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
 
 def lambda_handler(event, context):
-    # TODO implement
     message = create_tweet()
     return {
         'statusCode': 200,
